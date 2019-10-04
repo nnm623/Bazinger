@@ -1,3 +1,38 @@
-body{
-	background: red;
+.brand_text{
+	color: #45BAEB;
+}
+
+.brand_text_2{
+	color:white;
+}
+
+.navbar-default .navbar-nav .nav-link{
+	color:white;
+	font-size: 14px;
+}
+
+.navbar-default .navbar-nav .nav-link:hover{
+	color: #45BAEB;
+	border-bottom:2px solid #45BAEB;
+	margin-bottom: -10px;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.navbar{
+	background: #000000b0;
+}
+
+.navbar-nav{
+	font-size: 16px;
+    padding-right: 7%;
+}
+
+.signal{
+	position: relative;
+    left: 81px;
+    top: -24px;
 }
