@@ -36,3 +36,100 @@
     left: 81px;
     top: -24px;
 }
+.carousel-item {
+  background: no-repeat center center scroll;
+  background-size: cover;
+}
+.carousel-caption {
+  bottom: 270px;
+}
+
+.carousel-caption h5 {
+  font-size: 45px;
+  letter-spacing: 2px;
+  margin-top: 25px;
+}
+
+.carousel-caption p {
+  width: 75%;
+  margin: auto;
+  font-size: 18px;
+  line-height: 1.9;
+}
+
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+
+.btn-outline-primary {
+	font-size: 22px;
+	font-weight: 600;
+    color: white;
+    border-color: white;
+    padding: 15px 40px;
+    margin: 15px;
+}
+
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    background-color: #00CBFF;
+    padding: 20px;
+    border-radius:20px;
+
+}
+
+.carousel-control-prev-icon {
+    background-size: 20px;
+}
+
+.carousel-control-next-icon {
+    background-size: 20px;
+}
+
+.slider_icons:hover{
+	color:#00CBFF;
+}
+
+.slider_icons {
+    border-radius: 30px;
+    padding: 13px;
+    margin: 6px;
+    font-size: 35px;
+    background-color: #00000045;
+    cursor: pointer;
+}
+
+.services_main_container{
+	background: #F9F9F9;
+    border-bottom: solid 2px gray;
+    margin-bottom: 50px;
+}
+
+.services_row{
+	margin-top: 50px;
+	text-align: center;
+}
+
+.services_main_title{
+	text-align: center;
+	margin-top: 20px;
+}
+
+.services_titles{
+	margin-top:20px;
+	margin-bottom:20px;
+}
+
+.services_icons{
+	cursor:pointer;
+	font-size: 60px;
+	padding:50px;
+	color:white;
+	background:#00CBFF;
+	border-radius:80px;
+}
+
+.services_icons:hover{
+	background:#3F3E40;
+}
