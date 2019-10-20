@@ -133,3 +133,63 @@
 .services_icons:hover{
 	background:#3F3E40;
 }
+
+.services_gallery{
+	text-align: center;
+}
+
+.services_gallery_title{
+	margin-bottom: 50px;
+}
+
+.services_gallery_description{
+	padding-top:20px;
+}
+
+.image_text{
+	position:relative;
+	bottom:35px;
+	color:#00C7FB;
+	font-weight: 500;
+}
+
+.image_button
+  {
+position: absolute;
+    font-size: 30px;
+    color: white;
+    opacity: 0;
+    width: 95%;
+    background: #00c7fb70;
+    height: 47%;
+    border-radius: 8px;
+  }
+
+  .image_button:hover{
+  	cursor:pointer;
+  	opacity:1;
+  }
+
+ .new_file{
+ 	position: relative;
+ 	top:70px;
+ }
+
+.bg_car_img{
+	width:100%;
+	position: absolute;
+	z-index: 1;
+}
+
+.video_text{
+	position: relative;
+    color: white;
+    font-size: 25px;
+    transform: translate(21%,100%);
+    width: 70%;
+    z-index: 2;
+}
+
+.video_main{
+	text-align: center;
+}
