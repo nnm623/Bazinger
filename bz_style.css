@@ -153,9 +153,8 @@
 	font-weight: 500;
 }
 
-.image_button
-  {
-position: absolute;
+.image_button {
+	position: absolute;
     font-size: 30px;
     color: white;
     opacity: 0;
@@ -176,14 +175,23 @@ position: absolute;
  }
 
 .bg_car_img{
+	background-image:url(bz_images/car_bg.png);
+	background-size:cover;
+	background-position: center;
+	background-repeat: no-repeat;
 	width:100%;
+	position:relative;
+	min-height:80vh;
 }
 
 .video_text{
+	top: 50%;
+    left: 50%;
     color: white;
     font-size: 25px;
-    transform: translate(20%,-220%);
-    width: 70%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+
 }
 
 .video_main{
