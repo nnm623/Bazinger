@@ -467,14 +467,22 @@ input,textarea{
 		bottom:40px;
 		left:370px;
 	}
+
+	.signal{
+		left:53px;
+	}
+
+	.image_button{
+		width: 55%;
+	    height: 56.3%;
+	    left: 111.4px;
+	}
+	.c2_item{
+		margin-bottom:100px;
+	}
 }
 
 @media  screen and (max-width:996px) {
-	.image_button{
-		width:75%;
-		height: 49.3%;
-   		left: 44.4px;
-	}
 
 	.navbar-brand{
 	    right: 36.6%;
@@ -484,8 +492,8 @@ input,textarea{
 
 @media screen and (max-width: 987px) {
 	.hexagon{
-		width:22%;
-		transform:translate(80%,-26%);
+		width:32%;
+		transform:translate(18%,-22%);
 	}
 
 	.carousel_two_text_div{
@@ -495,6 +503,6 @@ input,textarea{
 
 @media screen and (max-width: 1480px) {
 	.form{
-		width:32%;
+		width:37%;
 	}
 }
