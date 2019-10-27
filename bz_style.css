@@ -1,3 +1,7 @@
+.container_m{
+	width:65%;
+	margin:auto;
+}
 .brand_text{
 	color: #45BAEB;
 }
@@ -114,16 +118,22 @@
 	background: #F9F9F9;
     border-bottom: solid 2px gray;
     margin-bottom: 50px;
+    margin-top:-50px;
 }
 
 .services_row{
+	margin-bottom:50px;
 	margin-top: 50px;
 	text-align: center;
 }
 
+.tts{
+	margin-top:50px;
+}
+
 .services_main_title{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 .services_titles{
@@ -145,6 +155,7 @@
 }
 
 .services_gallery{
+	margin-bottom:50px;
 	text-align: center;
 }
 
@@ -168,7 +179,7 @@
     font-size: 30px;
     color: white;
     opacity: 0;
-    width: 95%;
+    width: 90%;
     background: #00c7fb70;
     height: 47%;
     border-radius: 8px;
@@ -240,7 +251,7 @@ div.div2 iframe{
 }
 
 .card-deck{
-	margin-top: 50px;
+	margin-top: 100px;
 }
 
 .card-body{
