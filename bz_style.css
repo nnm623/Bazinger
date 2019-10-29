@@ -148,6 +148,7 @@
 	color:white;
 	background:#00CBFF;
 	border-radius:80px;
+	border:solid 3px #EFEFEF;
 }
 
 .services_icons:hover{
@@ -165,6 +166,7 @@
 
 .services_gallery_description{
 	padding-top:20px;
+	text-align: center;
 }
 
 .image_text{
@@ -336,7 +338,7 @@ div.div2 iframe{
     background-image: url(bz_images/hexagon.png);
     height: 176px;
     text-align: center;
-    transform: translate(180%,-17%);
+    transform: translate(180%,-55%);
     margin-bottom:80px;
 }
 
@@ -360,7 +362,7 @@ div.div2 iframe{
 	position: relative;
     text-align:left;
     width: 40%;
-    transform: translate(106%, 113%);
+    transform: translate(99%, 74%);
 }
 
 .carousel_two_text{
@@ -454,6 +456,47 @@ input,textarea{
 	padding-bottom:50px;
 
 }
+
+.screenshot_bg{
+	background-image: url(bz_images/gallery_no_hover.png);
+	height: 200px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	border-radius:10px;
+}
+
+.screenshot_bg:hover{
+	background-image:url(bz_images/gallery_hover.png);
+	cursor:pointer;
+}
+
+.screenshot_text{
+	color: #00CBFF;
+	font-size: 15px;
+	font-weight: 500;
+	text-align:center;
+	padding-top:65px;
+
+}
+
+.screenshot_main{
+	margin-top: 50px;
+	margin-bottom:50px;
+}
+
+.plus_icon{
+	opacity:0;
+	color: white;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 70px;
+}
+
+.plus_icon:hover{
+	opacity:1;
+}
+
 
 @media screen and (max-width: 1100px) {
 	.carousel_caption_1{
