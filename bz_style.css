@@ -626,7 +626,7 @@ input,textarea{
 
 @media screen and (max-width: 440px) {
 	.navbar-brand{
-		right:25.6%;
+		right:24%;
 	}
 
 	.form{
@@ -647,7 +647,7 @@ input,textarea{
 
 @media screen and (max-width: 376px) {
 	.navbar-brand{
-		right:21%;
+		right:21% !important;
 	}
 
 	.form{
@@ -658,8 +658,15 @@ input,textarea{
 	}
 
 	.hexagon{
-		width: 45% !important;
-	    transform: translate(0%,-115%) !important;
+		width: 50% !important;
+	    height: 130px;
+	    transform: translate(-5%,-145%) !important;
+	    background-size: cover;
+	}
+
+	.fa-user-circle{
+		top:25px;
+		font-size: 79px;
 	}
 
 	.carousel_two_text_div{
@@ -686,5 +693,35 @@ input,textarea{
 	.carousel_two_text_div{
 		transform:translate(102%,74%);
 	}
+}
+
+@media screen and (max-width: 376px) {
+	.navbar-brand{
+		right:16%;
+	}
+}
+
+@media screen and (max-width: 321px)  {
+	.navbar-brand{
+		right:15% !important;
+	}
+
+	.carousel_two_text_div{
+		transform: translate(135%,30%) !important;
+	}
+
+	.hexagon{
+		width: 48% !important;
+	    transform: translate(-1%,-140%) !important;
+	    height: 130px;
+	    background-size: cover;
+	}
+
+	.fa-user-circle{
+		font-size:75px;
+		top:28px;
+	}
+
+
 }
 
