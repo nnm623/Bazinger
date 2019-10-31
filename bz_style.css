@@ -43,9 +43,9 @@
 
 .carousel_caption_1{
 	z-index: 1;
-	bottom: 270px;
+	bottom: 30%;
     width: 50%;
-    left: 700px;
+    left: 40%;
 }
 
 .carousel_caption_1 h5 {
@@ -498,10 +498,27 @@ input,textarea{
 }
 
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
 	.carousel_caption_1{
-		bottom:55px;
-		left:450px;
+		bottom:17%;
+		left:40%;
+	}
+
+
+}
+
+@media screen and(max-width:900px){
+	.carousel_caption_1{
+		bottom:4%;
+		left:41%;
+	}
+
+	.carousel_caption_1 p{
+		font-size: 13px;
+	}
+
+	.carousel_caption_1 h5{
+		font-size: 25px;
 	}
 }
 
@@ -523,10 +540,28 @@ input,textarea{
 	.c2_item{
 		margin-bottom:100px;
 	}
+
+	.hexagon{
+		width: 30% !important;
+    	transform: translate(25%,-90%) !important;
+	}
+
+	.carousel_two_text_div{
+		font-size:15px;
+	}
 }
 
-@media  screen and (max-width:996px) {
-
+@media  screen and (max-width: 980px) {
+	.carousel_caption_1 p{
+		font-size:13px !important;
+	}
+	.carousel_caption_1 h5{
+		font-size: 25px !important;
+	}
+	.carousel_caption_1{
+		bottom:6%;
+		left:41%;
+	}
 	.navbar-brand{
 	    right: 36.6%;
 	    position: relative;
@@ -544,8 +579,112 @@ input,textarea{
 	}
 }
 
-@media screen and (max-width: 1480px) {
+@media screen and (max-width: 1500px) {
 	.form{
 		width:37%;
 	}
+
+	.carousel_caption_1 p{
+		font-size:15px;
+	}
+
+	.carousel_caption_1 h5{
+		font-size: 30px;
+	}
+
+	.first_slider_button {
+		font-size: 15px;
+		padding: 10px 35px;
+	}
+
+	.slider_icons{
+		font-size:25px;
+		padding:11px 13px;
+	}
+
+	.fa-android{
+		padding:10px 11px;
+	}
+
+	.hexagon{
+		width: 19%;
+	    transform: translate(100%,-90%);
+	}
+
+	.carousel_two_text_div{
+		transform: translate(105%,45%) !important;
+	}
 }
+
+@media screen and (max-width: 580px) {
+	.navbar-brand{
+		right:31.6%;
+	}
+
+
+}
+
+@media screen and (max-width: 440px) {
+	.navbar-brand{
+		right:25.6%;
+	}
+
+	.form{
+		width:68% !important;
+	}
+
+	.hexagon{
+		width:49% !important;
+		transform: translate(14%,-90%) !important;
+	}
+
+	.carousel_two_text_div{
+		transform: translate(150%,45%) !important;
+
+
+	}
+}
+
+@media screen and (max-width: 376px) {
+	.navbar-brand{
+		right:21%;
+	}
+
+	.form{
+		width: 70%;
+	}
+	.send_button{
+		padding: 10px 40px !important;
+	}
+
+	.hexagon{
+		width: 45% !important;
+	    transform: translate(0%,-115%) !important;
+	}
+
+	.carousel_two_text_div{
+		font-size: 11px;
+    	transform: translate(125%,29%) !important;
+	}
+}
+
+@media screen and (max-width: 792px) {
+	.carousel_caption_1 p{
+		font-size: 11px !important;
+	}
+
+	.carousel_caption_1 h5{
+		font-size: 21px !important;
+	}
+
+	.form{
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 1650px){
+	.carousel_two_text_div{
+		transform:translate(102%,74%);
+	}
+}
+
